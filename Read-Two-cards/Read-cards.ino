@@ -123,7 +123,7 @@ void loop(void) {
     Serial.println("--------");
     Serial.println("->Two cards detected!!!");
     Serial.println("--------");Serial.println("");
-    Serial.println("First a card!");
+    Serial.println("First card!");
     Serial.print("UID Length: ");Serial.print(uidLength, DEC);Serial.println(" bytes");
     Serial.print("UID Value: ");
     for (uint8_t i=0; i < uidLength; i++) 
@@ -135,7 +135,7 @@ void loop(void) {
     //nfc.inRelease(0);
     readm(uid,uidLength,1);
       Serial.println("--------");Serial.println("");
-      Serial.println("Second a card!");
+      Serial.println("Second card!");
       Serial.print("UID Length: ");Serial.print(uidLength2, DEC);Serial.println(" bytes");
       Serial.print("UID Value: ");
       for (uint8_t i=0; i < uidLength2; i++) 
