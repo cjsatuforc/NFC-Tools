@@ -1,3 +1,5 @@
+//Original file: https://github.com/adafruit/Adafruit-PN532/blob/master/Adafruit_PN532.cpp
+//
 /**************************************************************************/
 /*!
     Waits for an ISO14443A target to enter the field
